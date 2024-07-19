@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    background-color: #0D2C33;
+    font-family: 'Nunito-Regular', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: white;
+    border-radius: 60px;
+    width: 178px;
+    height: 59px;
+    box-sizing: border-box;
+    padding: 17px;
+    text-align: center;
+    font-size: 18px;
+    color: #0D2C33;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    padding: 56px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu {
+    margin-left: 335px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+}
+
+.menu-item a {
+    font-size: 18px;
+    line-height: 85%;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid white;
+}
+
+.main-content {
+    padding-top: 145px;
+    padding-bottom: 133px;
+}
+
+.main-info {
+    max-width: 737px;
+}
+
+.main-title {
+    font-size: 64px;
+    font-family: 'Nunito-Bold', sans-serif;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 18px;
+    max-width: 547px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.main-image {
+    position: absolute;
+    top: 157px;
+    right: 147px;
+}
+
+.O-nas {
+    margin-top: 100px;
+}
+
+.common-title {
+    font-size: 50px;
+    font-family: 'Nunito-Bold', sans-serif;
+    margin-bottom: 40px;
+}
+
+.Dva-peoples {
+    display: flex;
+    gap: 60px;
+}
+
+.title-people {
+    font-size: 24px;
+    font-family: 'Nunito-Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+.dva-people {
+    padding: 40px 35px 169px 35px;
+    background: white;
+    color: #0D2C33;
+    width: 575px;
+    height: 412px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.text-people {
+    /*margin-bottom: 169px;*/
+    font-size: 18px;
+}
+
+.Galery {
+    margin-top: 100px;
+}
+
+.People-image {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 358px;
+    width: 177px;
+    height: 171px;
+}
+
+.photo {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 262px);
+    gap: 40px 54px;
+}
+
+.photoo {
+    width: 262px;
+    height: 254px;
+}
+
+.footer {
+    margin-top: 200px;
+}
+
+.footer-konec {
+    margin-left: 601px;
+    display: flex;
+}
+
+.logoo {
+    margin-top: -3px;
+}
+
+.Podval {
+    font-size: 24px;
+    margin-left: 13px;
+    margin-bottom: 95px;
+}
